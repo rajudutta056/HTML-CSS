@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Frist project">
+  <meta name="keywords" content="HTML">
+  <meta name="author" content="Raju-Dutta">
+    <title>My Portfolio</title>
+    <style>
+        ul{
+            list-style-type: none;
+        }
+        table ,tr ,td ,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <nav>
+          <ul>
+             <li><a href="../Raju_Work/index.html" target="_blank">Home</a></li>
+             <li><a href="../Raju_Work/Education.html" target="_blank">Education</a></li>
+             <li><a href="../Raju_Work/Student.html" target="_blank">Student</a></li>
+          </ul>
+       </nav>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+        <p>My name is Raju dutta and i am from kolkata. Currently I am working in iMerit as a data annotater. I have 3 years of experience and now i am learning about Frontend Devolopment .I want to be WEB-DEV  </p>
+        </section>
+        <section>
+            <form action="action.php">
+               <label for="name">Name : </label>
+               <input type="text" name="name" placeholder="Enter your Name">
+               <br><br>
+               <label for="Messege">Messege : </label>
+               <textarea name="Messege" placeholder="write somthing"></textarea>
+               <br><br>
+               <label for="Phnum">Phone : </label>
+               <input type="tel" name="Phnum">
+               <br><br>
+               <label for="DOA">Date Of Appoiment : </label>
+               <input type="date" name="DOA">
+               <br><br>
+               <label for="101">Contact Via :
+               <input type="radio" name="Contact" value="Call" id="101">Call
+            </label>
+            <label for="102">
+                <input type="radio" name="Contact" value="Whatsapp" id="102">Whatsapp
+            </label>
+            <br><br>
+            <label for="Timeslot">Timeslot :
+                <input type="checkbox" name="Timeslot" value="MOR">Morning
+                <input type="checkbox" name="Timeslot" value="EVE">Afternoon
+                <input type="checkbox" name="Timeslot" value="NIG">Night
+            </label>
+            <br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            </form>
+        </section>
+        <section>
+            <h4>Projects</h4>
+            <table>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Descripition</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>001</td>
+                    <td>HTML</td>
+                    <td>This is a basic of HTML</td>
+                    <td><a href="../Raju_Work/index.html" target="_blank">HERE</a></td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Form</td>
+                    <td>This is a basic of form</td>
+                    <td><a href="../Raju_Work/project.html" target="_blank">HERE</a></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+       <h5>You can also Contact with me : </h5>
+       <p>gmail : rajudutta056@gmail.com</p>
+       <a href="https://github.com/rajudutta056" target="_blank">Github</a><br>
+       <a href="https://www.linkedin.com/in/raju-dutta056/" target="_blank">Linkdin</a>
+    </footer>
+</body>
+</html>
