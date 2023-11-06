@@ -8,4 +8,4 @@
        <br>
        <video src="/Utils/cat.mp4" controls type="mp4" height="300" width="400" autoplay poster="./Utils/thb.jpg"></video>
        <video src="/Utils/dog.mp4" controls type="mp4" height="300" width="400" autoplay></video>
-       <video src="/Utils/cat.mp4" controls type="mp4" height="300" width="400" autoplay></video> --> all data &amp; projects
+       <video src="/Utils/cat.mp4" controls type="mp4" height="300" width="400" autoplay></video> --> all data &amp;
