@@ -21,51 +21,67 @@
     <header>
        <nav>
           <ul>
-             <li><a href="../Raju_Work/index.html" target="_blank">Home</a></li>
-             <li><a href="../Raju_Work/Education.html" target="_blank">Education</a></li>
-             <li><a href="../Raju_Work/Student.html" target="_blank">Student</a></li>
+             <li><a href="#about">About Me</a></li>
+             <li><a href="#contact" >Contact Me</a></li>
+             <li><a href="#project">Projects</a></li>
           </ul>
        </nav>
     </header>
     <main>
-        <section>
-            <h2>About Me</h2>
+        <section id="about">
+            <h2 align="center">About Me</h2>
         <p>My name is Raju dutta and i am from kolkata. Currently I am working in iMerit as a data annotater. I have 3 years of experience and now i am learning about Frontend Devolopment .I want to be WEB-DEV  </p>
         </section>
-        <section>
+        <section id="contact">
+            <h2 align="center">Contact Me</h2>
             <form action="action.php">
-               <label for="name">Name : </label>
+                <div>
+                    <label for="name">Name : </label>
                <input type="text" name="name" placeholder="Enter your Name">
-               <br><br>
-               <label for="Messege">Messege : </label>
-               <textarea name="Messege" placeholder="write somthing"></textarea>
-               <br><br>
-               <label for="Phnum">Phone : </label>
-               <input type="tel" name="Phnum">
-               <br><br>
-               <label for="DOA">Date Of Appoiment : </label>
+                </div>
+                <br>
+                <div><label for="Messege">Messege : </label>
+                    <textarea name="Messege" placeholder="write somthing"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="Phnum">Phone : </label>
+                    <input type="tel" name="Phnum">
+                </div>
+                <br>
+                <div>
+                    <label for="DOA">Date Of Appoiment : </label>
                <input type="date" name="DOA">
-               <br><br>
-               <label for="101">Contact Via :
-               <input type="radio" name="Contact" value="Call" id="101">Call
-            </label>
-            <label for="102">
-                <input type="radio" name="Contact" value="Whatsapp" id="102">Whatsapp
-            </label>
-            <br><br>
-            <label for="Timeslot">Timeslot :
-                <input type="checkbox" name="Timeslot" value="MOR">Morning
-                <input type="checkbox" name="Timeslot" value="EVE">Afternoon
-                <input type="checkbox" name="Timeslot" value="NIG">Night
-            </label>
-            <br>
-            <input type="submit" value="submit">
-            <input type="reset" value="reset">
+                </div>
+                <br>
+                <div>
+                    <label for="101">Contact Via :
+                        <input type="radio" name="Contact" value="Call" id="101">Call
+                     </label>
+                </div>
+                <br>
+                <div>
+                    <label for="102">
+                        <input type="radio" name="Contact" value="Whatsapp" id="102">Whatsapp
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="Timeslot">Timeslot :
+                        <input type="checkbox" name="Timeslot" value="11-3">11AM to 3PM
+                        <input type="checkbox" name="Timeslot" value="4-7">4PM to 7PM
+                        <input type="checkbox" name="Timeslot" value="7-11">7PM to 11PM
+                    </label>
+                </div>
+                <div>
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                </div>
             </form>
         </section>
-        <section>
-            <h4>Projects</h4>
-            <table>
+        <section id="project">
+            <h4 align="center">Projects</h4>
+            <table align="center">
                 <tr>
                     <th>Id</th>
                     <th>Name</th>
@@ -88,10 +104,12 @@
         </section>
     </main>
     <footer>
-       <h5>You can also Contact with me : </h5>
-       <p>gmail : rajudutta056@gmail.com</p>
-       <a href="https://github.com/rajudutta056" target="_blank">Github</a><br>
-       <a href="https://www.linkedin.com/in/raju-dutta056/" target="_blank">Linkdin</a>
+       <h5 align="center">You can also Contact with me : </h5>
+       <div align="center">
+        <a href="#" target="_blank">Gmail</a>
+        <a href="https://github.com/rajudutta056" target="_blank">Github</a>
+        <a href="https://www.linkedin.com/in/raju-dutta056/" target="_blank">Linkdin</a>
+       </div>
     </footer>
 </body>
 </html>
