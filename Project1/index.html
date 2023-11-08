@@ -7,15 +7,11 @@
   <meta name="keywords" content="HTML">
   <meta name="author" content="Raju-Dutta">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        ul{
-            list-style-type: none;
-        }
-        table ,tr ,td ,th{
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-    </style>
+        @import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+        
+        </style>
 </head>
 <body>
     <header>
@@ -29,8 +25,8 @@
     </header>
     <main>
         <section id="about">
-            <h2 align="center">About Me</h2>
-        <p>My name is Raju dutta and i am from kolkata. Currently I am working in iMerit as a data annotater. I have 3 years of experience and now i am learning about Frontend Devolopment .I want to be WEB-DEV  </p>
+        <h2 align="center">About Me</h2>
+        <p class="para" font-family: 'Kenia', sans-serif;>My name is Raju dutta and i am from kolkata. Currently I am working in iMerit as a data annotater. I have 3 years of experience and now i am learning about Frontend Devolopment .I want to be WEB-DEV  </p>
         </section>
         <section id="contact">
             <h2 align="center">Contact Me</h2>
@@ -58,10 +54,7 @@
                     <label for="101">Contact Via :
                         <input type="radio" name="Contact" value="Call" id="101">Call
                      </label>
-                </div>
-                <br>
-                <div>
-                    <label for="102">
+                     <label for="102">
                         <input type="radio" name="Contact" value="Whatsapp" id="102">Whatsapp
                     </label>
                 </div>
@@ -74,14 +67,14 @@
                     </label>
                 </div>
                 <div>
-                    <input type="submit" value="submit">
-                    <input type="reset" value="reset">
+                    <input type="submit" value="submit" class="btn">
+                    <input type="reset" value="reset" class="btn">
                 </div>
             </form>
         </section>
-        <section id="project">
+        <section id="project" >
             <h4 align="center">Projects</h4>
-            <table align="center">
+            <table align="center" class="tab">
                 <tr>
                     <th>Id</th>
                     <th>Name</th>
@@ -110,6 +103,7 @@
         <a href="https://github.com/rajudutta056" target="_blank">Github</a>
         <a href="https://www.linkedin.com/in/raju-dutta056/" target="_blank">Linkdin</a>
        </div>
+       <input type="text" name="">
     </footer>
 </body>
 </html>
