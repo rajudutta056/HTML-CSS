@@ -1,0 +1,33 @@
+
+body {
+    background-color: antiquewhite;
+}ul {
+  list-style-type: none;
+}
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.btn {
+    color: #333147;
+    background-color: #5ad480;
+    border-radius: 52px;
+    padding: 5px;
+    width: 119px;
+}
+.tab{
+    color: rgb(25, 25, 99);
+    background-color:rgb(33, 184, 211) ;
+
+}
+.btn:hover{
+    color: black;
+    background: white;
+    scale: 1;
+}
+a:hover{
+    color: aqua;
+}
