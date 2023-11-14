@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    color: white;
+    color: #f6f1f1;
 }
 /* #box{
     background-color: blue;
@@ -36,6 +36,7 @@ div:nth-child(2n){
 } */
 #box1{
     height: 60px;
+    width: 100vw;
     background-color: #0f1111;
 }
 #logo{
@@ -50,13 +51,16 @@ a{
     margin-right: 200px;
 }
 .box{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border: 1px solid black;
     display:inline-block;
 }
 #b1{
     background-color: rgba(255,0,0,0.5);
+    position: relative;
+    top: 60px;
+    left: 4px;
 }
 #b2{
     background-color: rgba(0,255,0,0.5);
@@ -69,6 +73,7 @@ footer{
     text-align: center;
     height: 60px;
 }
-main{
-    height: 552px;
+#box1{
+    position: fixed;
+    top: 0;
 }
