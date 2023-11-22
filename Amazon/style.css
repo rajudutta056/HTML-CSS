@@ -224,7 +224,7 @@ ul{
     width: 100px;
 }
 .panel4{
-    height: 80px;
+    height: 70px;
     background-color: #131a22;
     color: white;
     text-align: center;
@@ -240,4 +240,7 @@ ul{
     color: #cccccc;
     text-decoration: none;
     font-size: 0.75rem;
+}
+.pages a:hover{
+    text-decoration: underline;
 }
