@@ -1,0 +1,25 @@
+.container{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+}
+@media (max-width: 300px) {
+    .container{
+        background-color: green;
+    }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+    .container{
+        background-color: pink;
+    }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+    .container{
+        background-color: red;
+    }
+}
+@media (min-width: 600px){
+    .container{
+        background-color: blue;
+    }
+}

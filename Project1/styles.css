@@ -31,3 +31,57 @@ th {
 a:hover{
     color: aqua;
 }
+.trafic{
+    background-color: black;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.con{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+.light1{
+    background-color: red;
+    animation: discolight 0.25s infinite;
+}
+.light2{
+    background-color: yellow;
+}
+.light3{
+    background-color: green;
+}
+.light1:hover {
+    background-color: blue;
+}
+@keyframes discolight{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: blue;
+    }
+}
+@keyframes spin{
+    from{
+       transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.loader{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid #5ad480;
+    border-top: 10px solid black;
+    animation: spin 0.5s infinite;
+}
