@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+}
+
+/**Navbar-Sections*/
+.navbar{
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+    padding: 0 20px;
+    z-index: 1000;
+    width: 100%;
+}
+.navbar .nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0px auto;
+    position: relative;
+    height: 80px;
+}
+.nav .left{
+    display: flex;
+    align-items: center;
+    column-gap: 64px;
+}
+.left .address{
+    cursor: pointer;
+    max-width: 300px;
+}
+.address .other{
+    color: #3d4152;
+    font-weight: 700;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #3d4152;
+}
+.address .other:hover{
+    color: #fc8019;
+    border-color: #fc8019;
+}
+.address .location{
+    font-weight: 300;
+    padding: 0px 5px;
+    color: #686b78;
+}
+.address .logo2{
+    color: #fc8019;
+}
+.nav .right{
+    display: flex;
+    align-items: center;
+}
+ .items{
+    display: flex;
+    align-items: center;
+}
+.items li{
+    list-style-type: none;
+    margin-right: 55px;
+    color: #3d4152;
+    font-weight: 500;
+    font-size: 16px;
+}
+.items li .nav-items a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #3d4152;
+    column-gap: 10px;
+}
+/* main content section */
+.top-img{
+    height: 100%;
+    width: 100%;
+}
+
+.content-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 125px;
+    left: 23px;
+}
+.container .item-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+.item-bar .numbers{
+ font-weight: 700;
+ font-size: 28px;
+ color: #3d4152;
+}
+.item-bar .filter{
+    display: flex;
+    align-items: center;
+    color: #3d4152;
+    column-gap: 35px;
+}
+.resturent-list{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin-bottom: 85px;
+    margin-top: 40px;
+    row-gap: 40px;
+}
+.top image{
+}
+.item-content{
+    position: relative;
+}
+.status{
+    position: absolute;
+     top: 0px;
+     background-color: rgb(58, 60, 65);
+     color: #fff;
+     padding: 5px 9px;
+     left: -8px;
+}
+.status:before {
+    position: absolute;
+    bottom: -9px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: inherit;
+    left: 0;
+    border-width: 9px 0 0 9px;
+    border-color: rgb(30, 32, 35) transparent;
+}
+.plase-name{
+    margin-top: 14px;
+}
+.plase-name .name{
+    font-size: 17px;
+    font-weight: 500;
+    word-break: break-word;
+}
+.plase-name .food-items {
+    color: #686b78;
+    font-size: 13px;
+    margin-top: 4px;
+    font-weight: 300;
+}
+.info-div{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    font-size: 12px;
+    justify-content: space-between;
+    color: #535665;
+    font-weight: 300;
+    padding-right: 20px;
+}
+.info-div .rating {
+    background-color: #db7c38;
+    color: #fff;
+    height: 20px;
+    width: 36px;
+    padding: 0 5px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+  }
+.star-logo{
+    font-size: 10px;
+    margin-right: 4px;
+    position: relative;
+    top: -1px;
+}
+.offer-div{
+    border-top: 1px solid #e9e9eb;
+    padding-top: 14px;
+    margin-top: 14px;
+    color: #8a584b;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.offer-div .icon-offer{
+    font-size: 16px;
+    width: 20px;
+    height: 16px;
+    margin-right: 4px;
+}
+.offer-div .offer-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2px;
+}
+.offer-text .fa-tags{
+    margin-right: 2px;
+}
+.place .quick-view{
+    visibility: hidden;
+    border-top: 1px solid #e9e9eb;
+    padding-top: 14px;
+    text-align: center;
+}
+.place:hover .quick-view{
+    visibility: visible;
+}
+.quick-view .view-btn{
+    color: #5d8ed5;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+@media screen and (max-width:480px) {
+    .navbar{
+        width: 95%;
+    }
+
+    .nav .left{
+        column-gap: 8px;
+    }
+    .logo .SVG{
+        height: 30;
+    }
+    .left .address{
+        font-size: 8px;
+    }
+    .items li {
+        font-size: 10px;
+    }
+    .item-bar .numbers{
+        font-size: 12px;
+    }
+
+    .item-bar .filter{
+        gap: 9px;
+    }
+
+    .filter div{
+        font-size: 9px;
+    }
+}
