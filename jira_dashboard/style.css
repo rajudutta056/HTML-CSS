@@ -1,0 +1,53 @@
+/* .box{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+} */
+#todo , #in-prograss ,#done{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #F4F5F7;
+}
+.main_container{
+ display: flex;
+ gap:20px;
+ padding: 20px;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color: gray;
+}
+#txt_1{
+    padding: 10px 10px 30px;
+    border: none;
+}
+h3{
+    padding: 10px;
+}
+.hide{
+    display: none;
+}
+.card{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 5px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 3px gray;
+}
